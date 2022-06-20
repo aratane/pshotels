@@ -1,0 +1,178 @@
+/* Custom Input */
+.ps-input {
+	width: 100%;
+	padding: 0 10px;
+
+	background: #f0f0f0;
+	color: #666;
+
+	border-color: transparent;
+	box-sizing: border-box;
+	margin: 0;
+	border-radius: 0;
+
+	font-size: .8rem;
+
+	-webkit-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+
+	outline: none;
+}
+
+/** Text Layer and Background */
+.ps-text-layer .caption {
+	position: absolute;
+	width: 80%;
+	bottom: 0;
+	padding: 30px 15px;
+}
+.ps-text-layer .card-title {
+	color: #fff;
+}
+.ps-text-layer .card-text {
+	font-size: 1rem;
+	color: #bbb;
+}
+.ps-img-layer:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0.42) 80%,rgba(0,0,0,0.88) 100%);
+}
+/** Hover Event */
+.ps-img-hover {
+	display: block;
+	transition: all .25s ease-in-out;
+	opacity: .9;
+}
+.ps-img-hover:hover {
+	opacity: 1;
+}
+
+/** Hover Div */
+.ps-card-hover .card {
+	transition: all .25s ease-in;
+	border: 1px solid #fff;
+}
+.ps-card-hover .card:hover {
+	/*border-color: '#333';*/
+	background-color: rgba(250,250,250, .7);
+	border: 1px solid #aaa;
+}
+
+/** Top label */
+.ps-top-badge {
+    position: absolute;
+    z-index: 100;
+    font-size: 1rem;
+    top: -0.3rem;
+    right: 0.6rem;
+    /* background-color: #B2DFDB; */
+    margin: 0;
+    /* color: green; */
+    font-weight: normal;
+}
+
+/* Square btn */
+.ps-sq-btn {
+	border-radius: 0;
+}
+
+/* Hero Text */
+.ps-hero-wrapper {
+	width: 100%;
+	/*min-height: 380px;*/
+	position: relative;
+	/** Image  */
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ps-hero-wrapper:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	width: 100%;
+	/*height: 380px;*/
+	background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0.70) 70%,rgba(0,0,0,0.60) 100%);
+	opacity: 5;
+}
+.ps-hero-text {
+	position: absolute;
+	top: 80px;
+	z-index: 5;
+	color: #fff;
+}
+
+/* Sticky Nav */
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+    background: #efefef;
+}
+
+/* Block quotes */
+blockquote {
+  /*font: 1.2em/1.6em Georgia, "Times New Roman", Times, serif;*/
+  background: url(../../img/core/close-quote.gif) no-repeat right bottom;
+  background-color: #eee;
+  padding: 5px 5px 5px 22px;
+  text-indent: -18px;
+}
+blockquote:first-letter {
+  background: url(../../img/core/open-quote.gif) no-repeat left top;
+  padding-left: 18px;
+  font: italic 1.4em Georgia, "Times New Roman", Times, serif;
+}
+
+/* Main Footer */
+.main-footer {
+	color: #aaa;
+	background: #1b1b1b;
+}
+.main-footer p {
+	font-size: 0.9rem;
+}
+.main-footer h5 {
+	color: #aaa;
+}
+.main-footer .footer-title {
+	color: #ddd;
+	padding: 10px 0px;
+	border-bottom: 1px solid #253443;
+}
+/* Lower Footer */
+.lower-footer {
+	font-size: 0.85rem;
+    background: #000;
+    color: #aaa;
+}
+
+/* custom Carousel Slider */
+.ps-carousel .carousel-item img {
+	width: 100%;
+	object-fit: cover;
+}
+.ps-carousel .nav {
+	padding: 0;
+}
+.ps-carousel .nav-link {
+	padding: 0px 5px 0px 0px;
+}
+.ps-carousel .nav-link img {
+	padding: 0;
+	width: 100%;
+	object-fit: cover;
+}
+
+/* Comments */
+.comments .comment {
+	border-bottom: 1px solid #ddd;
+}

@@ -1,0 +1,69 @@
+@font-face {
+    font-family: bitter;
+    src: url(../../fonts/Bitter/Bitter-Regular.ttf);
+}
+
+@font-face {
+    font-family: bitter;
+    src: url(../../fonts/Bitter/Bitter-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: opensans;
+    src: url(../../fonts/OpenSans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: opensans;
+    src: url(../../fonts/OpenSans/OpenSans-Bold.ttf);
+    font-weight: bold;
+}
+
+body {
+	font-family: 'opensans';
+	font-size: 1rem;
+	line-height: 1.5rem;
+	background-color: #F5F5F5;
+}
+h1, h2, h3,
+h4, h5, h6 {
+	font-family: 'opensans';
+	font-weight: 900;
+}
+h1 {
+	font-size: 1.75rem;
+	line-height: 2rem;
+}
+h2 {
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+h3 {
+	font-size: 1.5rem;
+	line-height: 1.75rem;
+}
+h4 {
+	font-size: 1.25rem;
+	line-height: 2rem;
+}
+h5 {
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
+h6 {
+	font-size: 0.9rem;
+	line-height: 1.25rem;
+}
+p {
+	font-size: 0.98rem;
+	line-height: 1.5rem;
+}
+.lead {
+	font-size: 1rem;
+}
+a, a:hover {
+	font-family: inherit;
+	color: inherit;
+	text-decoration: inherit;
+}

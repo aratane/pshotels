@@ -1,0 +1,1 @@
+ALTER TABLE `psh_rooms`  ADD `room_desc` TEXT NOT NULL  AFTER `room_name`;

@@ -1,0 +1,1 @@
+ALTER TABLE `psh_about`  ADD `currency_symbol` VARCHAR(255) NOT NULL  AFTER `theme_style`,  ADD `currency_short_form` VARCHAR(255) NOT NULL  AFTER `currency_symbol`;

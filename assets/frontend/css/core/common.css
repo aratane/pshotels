@@ -1,0 +1,21 @@
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .1rem 1rem rgba(0, 0, 0, .2); }
+.text-shadow { text-shadow: 2px 2px #444; }
+
+.padding-0-first{
+	padding-right:5px;
+}
+.padding-0{
+    padding-right:5px;
+    padding-left:1px;
+}
+
+.padding-1-first{
+	padding-right:10px;
+}
+.padding-1{
+    padding-right:10px;
+    padding-left:1px;
+}

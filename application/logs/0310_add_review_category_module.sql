@@ -1,0 +1,1 @@
+INSERT INTO `core_modules` (`module_id`, `module_name`, `module_desc`, `module_icon`, `ordering`, `is_show_on_menu`, `group_id`) VALUES (NULL, 'review_categories', 'Review Categories', '', '1', '1', '1');

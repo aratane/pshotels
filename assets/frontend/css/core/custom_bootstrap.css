@@ -1,0 +1,15 @@
+
+/* Custom Bootstrap */
+.card,
+.card-img-top {
+	border-radius: 0;
+}
+.card .card-body {
+	border: 1px solid #eee;
+}
+
+.form-control{
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+}
